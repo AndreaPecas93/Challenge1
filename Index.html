@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!--Tipografia de Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet" />
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <a href="https://app.aluracursos.com/dashboard">
+                <img class="logo" src="Imagenes/logo_alura.png" alt="logo de alura">
+            </a>
+        </header>
+        <main>
+            <section class="seccion_1">
+                <div class="contenedor_caja_texto1">
+                    <textarea class="caja_texto1" placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+                <div class="alerta">
+                    <img src="Imagenes/alerta.png" alt="alerta">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <input type="button" class="boton_encriptar" value="Encriptar">
+                    <input type="button" class="boton_desencriptar" value="Desencriptar">
+               </div>
+            </section>
+            <section class="seccion_2">
+                <div class="contenedor_dibujo">
+                    <img src="Imagenes/hacker.png" alt="imagen">  
+                </div>  
+                <div class="contenedor_parrafo">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>   
+                <div class="contenedor_copiar">
+                    <input type="button" class="boton_copiar" value="Copiar">
+                </div>
+                <div class="contenedor_resultado">
+                    <p class="texto_resultado"></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="socialNetwork">
+                <a href="" target="_blank">
+                    <i class=""></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class=""></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class=""></i>
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
